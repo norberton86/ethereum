@@ -29,8 +29,6 @@ class CampaignNew extends React.Component{
             this.setState({errorMessage:err.message})
         }
 
-        Router.pushRoute('/') 
-
         this.setState({loading:false})
 
     }
